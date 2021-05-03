@@ -768,7 +768,7 @@
 
             </configuration>
         </agent-service>
-        <agent-service name="AgentResourceMonitor" enabled="true">
+        <agent-service name="AgentResourceMonitor" enabled="false">
             <service-dependencies>JMXService</service-dependencies>
         </agent-service>
         <agent-service name="ObjectMonitoringService" enabled="true">
